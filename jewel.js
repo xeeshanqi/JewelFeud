@@ -1,5 +1,6 @@
 $(document).ready(function(){
-	$("body").append('<div id = "gamefield"></div><div id = "marker"></div>').css({"background-color":"black","margin":"0"});
+
+	$("body").append('<div id = "gamefield"></div><div id = "marker"></div>').css({"background-color":"#212022","margin":"0"});
   	$("#marker").css({"width":"52px","height":"52px","border":"5px solid white","position":"absolute"}).hide();
 	var selectedRow=-1
   	var selectedCol=-1
